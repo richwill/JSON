@@ -20,8 +20,8 @@
 
 /* Begin PBXFileReference section */
 		7911AE432A00558100C10B0B /* JSON */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JSON; sourceTree = BUILT_PRODUCTS_DIR; };
-		7911AE4D2A00561200C10B0B /* read_json.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = read_json.sh; path = ../../../tmp/read_json.sh; sourceTree = "<group>"; };
-		7911AE4E2A00561200C10B0B /* format_json.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = format_json.sh; path = ../../../tmp/format_json.sh; sourceTree = "<group>"; };
+		7911AE4F2A00572300C10B0B /* read_json.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = read_json.sh; sourceTree = "<group>"; };
+		7911AE502A00572300C10B0B /* format_json.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = format_json.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +54,8 @@
 		7911AE452A00558100C10B0B /* JSON */ = {
 			isa = PBXGroup;
 			children = (
-				7911AE4E2A00561200C10B0B /* format_json.sh */,
-				7911AE4D2A00561200C10B0B /* read_json.sh */,
+				7911AE502A00572300C10B0B /* format_json.sh */,
+				7911AE4F2A00572300C10B0B /* read_json.sh */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
