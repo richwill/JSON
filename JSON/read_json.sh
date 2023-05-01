@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Pipe JSON input via stdin and provide variable path to retrieve
+# values.
+
 if [ $# -ne 1 ];
     then echo "JSON variable name must be provided."
     exit
@@ -8,7 +11,7 @@ fi
 if test ! -t 0; then
     JSON_DATA=$(</dev/stdin)
 else
-    echo "Must pipe input to $0"
+    echo "Must pipe JSON input via stdin to $0"
     exit
 fi
 
