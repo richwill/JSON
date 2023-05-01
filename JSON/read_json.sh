@@ -1,6 +1,17 @@
 #!/bin/bash
 
-JSON_DATA=$(</dev/stdin)
+if [ $# -ne 1 ];
+    then echo "JSON variable name must be provided."
+    exit
+fi
+
+if test ! -t 0; then
+    JSON_DATA=$(</dev/stdin)
+else
+    echo "Must pipe input to $0"
+    exit
+fi
+
 JSON_VARIABLE=$1
 
 read -r -d '' JAVASCRIPT_SOURCE <<EOF
